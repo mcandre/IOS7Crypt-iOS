@@ -18,6 +18,11 @@
 @synthesize passwordField;
 @synthesize hashField;
 
+- (BOOL) textFieldShouldReturn: (UITextField *) textField {
+  [textField resignFirstResponder];
+  return NO;
+}
+
 -(IBAction) encryptButton: (id) sender {
   NSString *password = passwordField.text;
 

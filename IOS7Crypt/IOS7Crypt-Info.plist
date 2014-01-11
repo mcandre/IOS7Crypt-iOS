@@ -8,6 +8,34 @@
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>key-settings-iphone-retina</string>
+				<string>key-spotlight-iphone-retina</string>
+				<string>key-app-iphone-retina</string>
+			</array>
+		</dict>
+	</dict>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>key-settings-ipad-retina</string>
+				<string>key-settings-ipad-nonretina</string>
+				<string>key-spotlight-ipad-retina</string>
+				<string>key-spotlight-ipad-nonretina</string>
+				<string>key-app-ipad-retina</string>
+				<string>key-app-ipad-nonretina</string>
+				<string>key-app-iphone-retina</string>
+			</array>
+		</dict>
+	</dict>
 	<key>CFBundleIdentifier</key>
 	<string>us.yellosoft.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>

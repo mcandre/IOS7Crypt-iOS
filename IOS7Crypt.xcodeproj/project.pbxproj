@@ -58,6 +58,15 @@
 		49970DB11881D2F000DC820B /* IOS7CryptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS7CryptTests.m; sourceTree = "<group>"; };
 		49970DBB1881D3F600DC820B /* ios7crypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ios7crypt.c; sourceTree = "<group>"; };
 		49970DBC1881D3F600DC820B /* ios7crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ios7crypt.h; sourceTree = "<group>"; };
+		49970DBE1881E46100DC820B /* key-app-iphone-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-app-iphone-retina.png"; sourceTree = "<group>"; };
+		49970DBF1881E46E00DC820B /* key-app-ipad-nonretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-app-ipad-nonretina.png"; sourceTree = "<group>"; };
+		49970DC01881E47B00DC820B /* key-app-ipad-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-app-ipad-retina.png"; sourceTree = "<group>"; };
+		49970DC11881E4B200DC820B /* key-spotlight-iphone-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-spotlight-iphone-retina.png"; sourceTree = "<group>"; };
+		49970DC21881E4BF00DC820B /* key-spotlight-ipad-nonretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-spotlight-ipad-nonretina.png"; sourceTree = "<group>"; };
+		49970DC31881E4D900DC820B /* key-spotlight-ipad-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-spotlight-ipad-retina.png"; sourceTree = "<group>"; };
+		49970DC41881E4E400DC820B /* key-settings-iphone-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-settings-iphone-retina.png"; sourceTree = "<group>"; };
+		49970DC51881E4F000DC820B /* key-settings-ipad-nonretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-settings-ipad-nonretina.png"; sourceTree = "<group>"; };
+		49970DC61881E50000DC820B /* key-settings-ipad-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-settings-ipad-retina.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +96,15 @@
 		49970D771881D2F000DC820B = {
 			isa = PBXGroup;
 			children = (
+				49970DC61881E50000DC820B /* key-settings-ipad-retina.png */,
+				49970DC51881E4F000DC820B /* key-settings-ipad-nonretina.png */,
+				49970DC41881E4E400DC820B /* key-settings-iphone-retina.png */,
+				49970DC31881E4D900DC820B /* key-spotlight-ipad-retina.png */,
+				49970DC21881E4BF00DC820B /* key-spotlight-ipad-nonretina.png */,
+				49970DC11881E4B200DC820B /* key-spotlight-iphone-retina.png */,
+				49970DC01881E47B00DC820B /* key-app-ipad-retina.png */,
+				49970DBF1881E46E00DC820B /* key-app-ipad-nonretina.png */,
+				49970DBE1881E46100DC820B /* key-app-iphone-retina.png */,
 				49970D891881D2F000DC820B /* IOS7Crypt */,
 				49970DAB1881D2F000DC820B /* IOS7CryptTests */,
 				49970D821881D2F000DC820B /* Frameworks */,
@@ -396,7 +414,6 @@
 		49970DB61881D2F000DC820B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IOS7Crypt/IOS7Crypt-Prefix.pch";
@@ -409,7 +426,6 @@
 		49970DB71881D2F000DC820B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IOS7Crypt/IOS7Crypt-Prefix.pch";
