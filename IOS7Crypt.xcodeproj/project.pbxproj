@@ -436,13 +436,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Andrew Pennebaker (38LRRX4Y45)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IOS7Crypt/IOS7Crypt-Prefix.pch";
 				INFOPLIST_FILE = "IOS7Crypt/IOS7Crypt-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "B3D55D1C-5BFF-4F31-8172-58E123D27E31";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -451,13 +451,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Andrew Pennebaker (38LRRX4Y45)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IOS7Crypt/IOS7Crypt-Prefix.pch";
 				INFOPLIST_FILE = "IOS7Crypt/IOS7Crypt-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "B3D55D1C-5BFF-4F31-8172-58E123D27E31";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
