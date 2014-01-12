@@ -10,6 +10,10 @@ IOS7Crypt encrypts and decrypts passwords using Cisco's weak algorithm from old 
 
 The encryption algorithm has been implemented in multiple programming languages, and ported to different platforms, including CLI, GUI, desktop, and mobile, to aid students with varying degrees of familiarity with languages and/or computer hardware.
 
+# LICENSE
+
+FreeBSD
+
 # HOMEPAGE
 
 http://www.yellosoft.us/ios7crypt
