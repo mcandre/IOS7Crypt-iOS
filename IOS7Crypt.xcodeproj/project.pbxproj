@@ -23,6 +23,15 @@
 		49970DB01881D2F000DC820B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49970DAE1881D2F000DC820B /* InfoPlist.strings */; };
 		49970DB21881D2F000DC820B /* IOS7CryptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49970DB11881D2F000DC820B /* IOS7CryptTests.m */; };
 		49970DBD1881D3F600DC820B /* ios7crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 49970DBB1881D3F600DC820B /* ios7crypt.c */; };
+		49DBD5451882213000BE1338 /* key-settings-ipad-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 49970DC61881E50000DC820B /* key-settings-ipad-retina.png */; };
+		49DBD5461882213000BE1338 /* key-settings-ipad-nonretina.png in Resources */ = {isa = PBXBuildFile; fileRef = 49970DC51881E4F000DC820B /* key-settings-ipad-nonretina.png */; };
+		49DBD5471882213000BE1338 /* key-settings-iphone-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 49970DC41881E4E400DC820B /* key-settings-iphone-retina.png */; };
+		49DBD5481882213000BE1338 /* key-spotlight-ipad-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 49970DC31881E4D900DC820B /* key-spotlight-ipad-retina.png */; };
+		49DBD5491882213000BE1338 /* key-spotlight-ipad-nonretina.png in Resources */ = {isa = PBXBuildFile; fileRef = 49970DC21881E4BF00DC820B /* key-spotlight-ipad-nonretina.png */; };
+		49DBD54A1882213000BE1338 /* key-spotlight-iphone-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 49970DC11881E4B200DC820B /* key-spotlight-iphone-retina.png */; };
+		49DBD54B1882213000BE1338 /* key-app-ipad-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 49970DC01881E47B00DC820B /* key-app-ipad-retina.png */; };
+		49DBD54C1882213000BE1338 /* key-app-ipad-nonretina.png in Resources */ = {isa = PBXBuildFile; fileRef = 49970DBF1881E46E00DC820B /* key-app-ipad-nonretina.png */; };
+		49DBD54D1882213000BE1338 /* key-app-iphone-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 49970DBE1881E46100DC820B /* key-app-iphone-retina.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -257,6 +266,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DBD5451882213000BE1338 /* key-settings-ipad-retina.png in Resources */,
+				49DBD5461882213000BE1338 /* key-settings-ipad-nonretina.png in Resources */,
+				49DBD5471882213000BE1338 /* key-settings-iphone-retina.png in Resources */,
+				49DBD5481882213000BE1338 /* key-spotlight-ipad-retina.png in Resources */,
+				49DBD5491882213000BE1338 /* key-spotlight-ipad-nonretina.png in Resources */,
+				49DBD54A1882213000BE1338 /* key-spotlight-iphone-retina.png in Resources */,
+				49DBD54B1882213000BE1338 /* key-app-ipad-retina.png in Resources */,
+				49DBD54C1882213000BE1338 /* key-app-ipad-nonretina.png in Resources */,
+				49DBD54D1882213000BE1338 /* key-app-iphone-retina.png in Resources */,
 				49970D9A1881D2F000DC820B /* Main_iPad.storyboard in Resources */,
 				49970D9F1881D2F000DC820B /* Images.xcassets in Resources */,
 				49970D971881D2F000DC820B /* Main_iPhone.storyboard in Resources */,
