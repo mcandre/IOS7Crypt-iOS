@@ -8,12 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController: UIViewController <UITextFieldDelegate>
 
 @property (strong, nonatomic) IBOutlet UITextField *passwordField;
 @property (strong, nonatomic) IBOutlet UITextField *hashField;
-
-- (BOOL) textFieldShouldReturn: (UITextField *) textField;
 
 -(IBAction) encryptButton: (id) sender;
 -(IBAction) decryptButton: (id) sender;

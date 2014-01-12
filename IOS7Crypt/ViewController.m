@@ -9,19 +9,12 @@
 #import "ViewController.h"
 #import "ios7crypt.h"
 
-@interface ViewController ()
-
-@end
-
-@implementation ViewController
+@implementation ViewController: UIViewController
 
 @synthesize passwordField;
 @synthesize hashField;
 
-- (BOOL) textFieldShouldReturn: (UITextField *) textField {
-  [textField resignFirstResponder];
-  return NO;
-}
+
 
 -(IBAction) encryptButton: (id) sender {
   NSString *password = passwordField.text;
@@ -51,10 +44,16 @@
   passwordField.text = password;
 }
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+  [super viewDidLoad];
+
+  self.passwordField.delegate = self;
+  self.hashField.delegate = self;
+}
+
+- (BOOL) textFieldShouldReturn: (UITextField *) textField {
+  [textField resignFirstResponder];
+  return NO;
 }
 
 - (void)didReceiveMemoryWarning
