@@ -2,7 +2,7 @@
 
 # SCREENSHOT
 
-<a href="https://raw2.github.com/mcandre/IOS7Crypt-iOS/master/screenshot-iphone.png"><img src="https://raw2.github.com/mcandre/IOS7Crypt-iOS/master/screenshot-iphone.png" alt="screenshot" height="400" /></a>
+<a href="https://raw2.github.com/mcandre/IOS7Crypt-iOS/master/screenshot-iphone.png"><img src="https://raw2.github.com/mcandre/IOS7Crypt-iOS/master/screenshot-iphone.png" alt="screenshot" height="400" border="1" /></a>
 
 # ABOUT
 
