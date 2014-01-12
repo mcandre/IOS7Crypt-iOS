@@ -225,6 +225,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Andrew Pennebaker";
 				TargetAttributes = {
+					49970D7F1881D2F000DC820B = {
+						DevelopmentTeam = 38LRRX4Y45;
+					};
 					49970DA31881D2F000DC820B = {
 						TestTargetID = 49970D7F1881D2F000DC820B;
 					};
@@ -415,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IOS7Crypt/IOS7Crypt-Prefix.pch";
 				INFOPLIST_FILE = "IOS7Crypt/IOS7Crypt-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -427,10 +433,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IOS7Crypt/IOS7Crypt-Prefix.pch";
 				INFOPLIST_FILE = "IOS7Crypt/IOS7Crypt-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -496,6 +505,7 @@
 				49970DB71881D2F000DC820B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49970DB81881D2F000DC820B /* Build configuration list for PBXNativeTarget "IOS7CryptTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +514,7 @@
 				49970DBA1881D2F000DC820B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
