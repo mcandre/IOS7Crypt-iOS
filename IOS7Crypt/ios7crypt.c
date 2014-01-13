@@ -22,7 +22,7 @@ int xlat[] = {
 
 int XLAT_SIZE = 53;
 
-void encrypt_ios7(const char *password, char *hash) {
+void encrypt_ios7(char* const password, char* hash) {
   size_t password_length;
 
   int seed;
@@ -46,7 +46,7 @@ void encrypt_ios7(const char *password, char *hash) {
   }
 }
 
-void decrypt_ios7(const char *hash, char *password) {
+void decrypt_ios7(char* const hash, char* password) {
   long seed;
   size_t i;
   int index, c;
